@@ -1,0 +1,202 @@
+.display{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#dte{
+justify-content: flex-start;
+}
+.display2{
+  display: flex;
+  align-content: center;
+  }
+
+.center{
+display: flex;
+justify-content: center;
+}
+
+.para {
+    position: relative;
+    text-align : center;
+}
+
+.lien a{
+text-align: center;
+width:20%;
+}
+
+.droite{
+display: flex;
+justify-content: flex-end;
+}
+
+.gauche{
+display: flex;
+justify-content: flex-start;
+}
+
+#marge
+{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
+.fgreen{
+  color: white;
+  background: green;
+  padding: 0px
+}
+
+.fgreen a {
+ color: white;
+}
+
+.div{
+width: 40%;
+display : flex;
+}
+
+.marg{
+display: flex;
+position: absolute;
+margin-top: 50px;
+margin-left: 50px;
+}
+
+.taille{
+width: 25%;
+}
+.orange{
+background-color: #e74a34;
+padding: 0.5%;
+}
+
+.marge1{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+a {
+text-decoration: none;/*pour mofifier le style de texte de chaque type a*/
+color: white;
+font-family: Geneva;
+}
+
+#h1{
+    font-size: 15px;
+    color: white;
+    line-height:2;
+    }
+
+#pad{
+padding-right:20%;
+padding:1.5%;
+padding-left:0%;
+}
+
+#blanc{
+display: flex;
+background-color:white;
+padding: 1.5%;
+padding-right:20%;
+color: black;
+}
+
+#orange{
+background-color:orange;
+padding: 1.5%;
+padding-right:20%;
+color: white;
+}
+
+/* fond noir ecriture blanc*/
+#fnoir{
+color: white;
+background: rgb(2 8 14);
+display:flex;
+}
+
+.blanc{
+background:black;
+
+}
+#content {
+    display:flex;
+    width: 30%;
+}
+
+#justifier{
+display:flex;
+align-content:center;
+
+}
+#p1 {
+    margin: 0;
+}
+
+/* les class et les id
+de la page qui sommes-nous*/
+.dispara{
+display: flex;
+}
+
+.margin{
+margin-top:10px;
+margin-bottom:10px;
+margin-left:30px;
+margin-right:30px;
+}
+
+#margri{
+margin-right: 20px;
+}
+
+.taille{
+font-size: 2em;
+margin-right: 10px;
+}
+/*paragraphe qui sommes nous*/
+.dis{
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.couleurverte{
+color: #15db15;
+}
+.taillelogo{
+width:150px;
+height:100px;
+}
+.espace{
+margin-right:20px;
+}
+.centrer{
+padding-left:80px;
+}
+
+#photoai{
+display:flex;
+background-image: image/IA.jpg;
+}
+
+.textedessus{
+ background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 70%;
+}
