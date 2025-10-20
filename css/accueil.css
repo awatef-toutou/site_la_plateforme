@@ -188,7 +188,7 @@ background-image: image/IA.jpg;
 }
 
 .textedessus{
- background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0);
     z-index: 1;
     position: absolute;
     text-align: center;
@@ -199,4 +199,22 @@ background-image: image/IA.jpg;
     top: 30%;
     color: white;
     width: 70%;
+    background-color:black
 }
+
+#photo{
+width:100%;
+}
+
+.taille-photo {
+    width: 100%;
+}
+
+#icons {
+    background-color: white;
+}
+
+#icons img {
+    width: 20%;
+}
+
