@@ -221,4 +221,8 @@ width:100%;
 
 #organiz{
 display: flex;
+
+}
+#span{
+display: flex;
 }
