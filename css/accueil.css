@@ -274,12 +274,26 @@ margin: 50px;}
 #deposez{
 width:20%;
 }
-#fond{
+.fond{
 display: flex;
 background-color:#56d5c2;
+justify-content:center;
+align-items:center;
+margin: 100px;
 }
-
-}
-#sofiane{
+#plus{
 display: flex;
+justify-content:center;
+align-items:center;
+margin: 50px;
+}
+.txt {
+ display: flex;
+}
+#defphoto{
+width:70%;
+margin-top: 3%;
+}
+#arondir{
+border-radius: 30px;
 }
