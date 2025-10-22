@@ -1,3 +1,8 @@
+
+ body {
+    font-family: Comic Sans;
+ }
+
 .display{
   display: flex;
   justify-content: space-around;
@@ -274,6 +279,7 @@ margin: 50px;}
 #deposez{
 width:20%;
 }
+
 .fond{
 display: flex;
 background-color:#56d5c2;
@@ -281,19 +287,42 @@ justify-content:center;
 align-items:center;
 margin: 100px;
 }
+
 #plus{
 display: flex;
 justify-content:center;
 align-items:center;
 margin: 50px;
 }
+
 .txt {
  display: flex;
 }
+
 #defphoto{
 width:70%;
 margin-top: 3%;
 }
 #arondir{
 border-radius: 30px;
+}
+
+#fondgray{
+display:flex;
+background-color: gray;
+flex-direction: column;
+}
+#adjust{
+display: flex;
+border-radius:30%;
+width:40%;
+}
+.contour{
+display: flex;
+margin-right:100px;
+margin-left:100px;
+width: 50%;
+}
+.couleur{
+color: green;
 }
