@@ -332,8 +332,52 @@ width:40%;
 display: flex;
 margin-right:100px;
 margin-left:100px;
-width: 50%;
+width: 40%;
 }
 .couleur{
 color: green;
+}
+#fondgreen{
+display: flex;
+background-color: green;
+}
+.dispphoto{
+display: flex;
+width: 50%;
+padding-bottom:100px;
+}
+.dispp{
+display: flex;
+flex-direction: column;
+}
+#form{
+background: white;
+max-width:500px;
+margin: auto;
+margin-right:100px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px;
+rgba(0,0,0,0);
+}
+#question{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 50px;
+}
+
+.width{
+display:flex;
+justify-content: center;
+width:5%;
+}
+
+.width img {
+    width: 100%;
+}
+
+#imagewidth{
+display: flex;
+width: 30%
 }
