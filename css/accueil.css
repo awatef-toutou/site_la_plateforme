@@ -194,7 +194,7 @@ height:100px;
 margin-right:20px;
 }
 .centrer{
-padding-left:80px;
+padding-left:100px;
 }
 
 #photoai{
@@ -320,7 +320,7 @@ border-radius: 30px;
 
 #fondgray{
 display:flex;
-background-color: gray;
+background-color: #f3f3f3;
 flex-direction: column;
 }
 #adjust{
@@ -380,4 +380,17 @@ width:5%;
 #imagewidth{
 display: flex;
 width: 30%
+}
+#grandeur{
+width: 50%;
+}
+#grand{
+width: 40%;
+}
+
+#position{
+display: flex;
+justify-content:center;
+align-items:center;
+margin-left:190px;
 }
