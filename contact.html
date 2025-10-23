@@ -37,21 +37,35 @@
                   </div>
           </div>
       </div>
-        <div><h1>La Plateforme / Contact</h1></div> <!--creation du fomulaire-->
-        <div class="txt"><!--les cadres avec les ariére plan-->
-            <form action="https://webhook.site/d0b6a644-0d10-4db8-8c2d-3a422eeaeff4" method="post">
-                <div>
+
+
+
+
+        <div class="dispformulaire"><!--les cadres avec les ariére plan-->
+            <div class="txt" id="titre"><h1>La Plateforme / Contact</h1></div> <!--creation du fomulaire-->
+            <div><form action="https://webhook.site/d0b6a644-0d10-4db8-8c2d-3a422eeaeff4" method="post">
+                <div class="txt">
+                    <div>
+                        <select name="Civilité" id="Civilité">
+                            <option value="Civilité">Civilité</option>
+                            <option value="inscription">Mme</option>
+                            <option value="inscription">Mr</option>
+                        </select>
+                    </div>
+                    <div>
                     <label for="Prénom" ></label>
                     <input type="text" id="Prénom" name="Prénom" placeholder="Prénom*" required>
-                </div>
-                <div>
+                    </div>
+                    <div>
                     <label for="email-form"></label>
                     <input type="email" id="email-form" name="email" placeholder="example@gmail.com" required>
+                    </div>
                 </div>
                 <div>
                     <label for="Téléphone mobile" ></label>
                     <input type="text" id="Téléphone mobile" name="Téléphone mobile" placeholder="Téléphone mobile*" required>
                 </div>
+
                 <div>
                     <select name="motif" id="motif">
                         <option value="Sélectionner un motif de contact*">Sélectionner un motif de contact*</option>
@@ -74,23 +88,22 @@
                     <textarea id="textarea" name="text" placeholder="message"></textarea>
                 </div>
                 <div>
-                    <label for="select">Reason</label>
-                    <select name="reason" id="select">
-                        <option value="contact">Contact</option>
-                        <option value="inscription">Inscription</option>
-                    </select>
+                    <input type="checkbox" id="case" name="case" checked>
+                    <label for="case">J'accepte de recevoir des informations de la part de La Plateforme</label>
                 </div>
                 <div>
-                    <button type="reset">Reset</button>
+                    <p>
+                        Selon l'article L.223-2 du code de la consommation, il est rappelé
+                        que le consommateur peut user de son droit à s'inscrire sur la liste
+                        d'opposition au démarchage téléphonique bloctel : bloctel.gouv.fr
+                    </p>
                 </div>
-                <div>
-                    <button type="submit">Envoyer</button>
+                <div id="envoyer">
+                    <p><a class="orange">Envoyer</a></p>
                 </div>
+            </form></div>
 
-            </form>
         </div>
-
-      </div>
 
     </div>
 
@@ -132,7 +145,7 @@
                 <!-- les deux liens-->
                 <div>
                     <p><a id="blanc"  href="" >Rejoigner nos équipes</a></p>
-                    <p ><a class="orang" href="https://laplateforme.io/telechargement-brochure/" > Télécharger la brochure</a></p>
+                    <p><a class="orang" href="https://laplateforme.io/telechargement-brochure/" > Télécharger la brochure</a></p>
                 </div>
             </div>
         </div>

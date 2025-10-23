@@ -398,3 +398,13 @@ justify-content:center;
 align-items:center;
 margin-left:190px;
 }
+
+.dispformulaire{
+background:white;
+display: flex;
+flex-direction: column}
+
+#titre{
+justify-content:center;}
+#envoyer{
+}
