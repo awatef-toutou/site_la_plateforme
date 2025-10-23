@@ -16,11 +16,10 @@
 
             <a href="qui%20sommes-nous.html">Qui sommes-nous</a>
             <a href="">Extrascolaire</a>
-            <a href="formations%20initiales.html">Formations initiales et Alternances</a>
-            <a href="formations%20initiales.html">Formations continues</a>
-            <a href="ateliers%20&%20labs.html">Ateliers & labs</a>
+            <a href="">Formations initiales et Alternances</a>
+            <a href="">Formations continues</a>
+            <a href="">Ateliers & labs</a>
         </div>
-
     </div>
 
 </header>
@@ -38,20 +37,58 @@
                   </div>
           </div>
       </div>
-          <div> <!--voté droite-->
-              <div><p><strong>La Plateforme / Contact</strong></p>
-                   <p> «*» indique les champs nécessaires</p></div>
-              <!--creation des cadres-->
-              <div>
-                  <div id="form">
-                      <!--je doit creer le cadre à cocher-->
-                      J'accepte de recevoir des informations de la part de La Plateforme
-                      Selon l'article L.223-2 du code de la consommation, il est rappelé
-                      que le consommateur peut user de son droit à s'inscrire sur la liste
-                      d'opposition au démarchage téléphonique bloctel : bloctel.gouv.fr
-                  </div>
+        <div><h1>La Plateforme / Contact</h1></div> <!--creation du fomulaire-->
+        <div class="txt"><!--les cadres avec les ariére plan-->
+            <form action="https://webhook.site/d0b6a644-0d10-4db8-8c2d-3a422eeaeff4" method="post">
+                <div>
+                    <label for="Prénom" ></label>
+                    <input type="text" id="Prénom" name="Prénom" placeholder="Prénom*" required>
+                </div>
+                <div>
+                    <label for="email-form"></label>
+                    <input type="email" id="email-form" name="email" placeholder="example@gmail.com" required>
+                </div>
+                <div>
+                    <label for="Téléphone mobile" ></label>
+                    <input type="text" id="Téléphone mobile" name="Téléphone mobile" placeholder="Téléphone mobile*" required>
+                </div>
+                <div>
+                    <select name="motif" id="motif">
+                        <option value="Sélectionner un motif de contact*">Sélectionner un motif de contact*</option>
+                        <option value="inscription">Aide à l'oriantation et informations sur les </option>
+                        <option value="inscription">Relations entreprises</option>
+                        <option value="inscription">Press / Partenariat / Communications</option>
+                        <option value="inscription">Suivie de candidature</option>
+                        <option value="inscription">Recrutement RH</option>
+                        <option value="inscription">Taxes d'apprentissage</option>
+                        <option value="inscription">Autres</option>
+                    </select>
+                </div>
+                <!-- pour un fichier
+                <div>
+                    <label for="file">File: </label>
+                    <input type="file" id="file" name="file" required>
+                </div> -->
+                <div> <!--crer un texte-->
+                    <label for="textarea"></label>
+                    <textarea id="textarea" name="text" placeholder="message"></textarea>
+                </div>
+                <div>
+                    <label for="select">Reason</label>
+                    <select name="reason" id="select">
+                        <option value="contact">Contact</option>
+                        <option value="inscription">Inscription</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="reset">Reset</button>
+                </div>
+                <div>
+                    <button type="submit">Envoyer</button>
+                </div>
 
-          </div>
+            </form>
+        </div>
 
       </div>
 
